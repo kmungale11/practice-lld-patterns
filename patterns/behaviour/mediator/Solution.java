@@ -1,5 +1,20 @@
 package patterns.behaviour.mediator;
 
+/**
+ * Features in Mediator
+ * 1. Abstract Mediator
+ * 2. Concrete Mediator/s
+ *  - has components as association
+ *  - components are registered with Mediator //// provider register (Component component) method
+ *  /// provide if else to initialize the components
+ *  - has all methods in base component
+ *  -
+ * 3. Base Component
+ *  - setMediator /// The component is only aware of the mediator and not other classes
+ * 4. Concrete Component
+ *  -
+ */
+
 interface Component {
     public void setMediator(Mediator mediator);
     public String getName();
