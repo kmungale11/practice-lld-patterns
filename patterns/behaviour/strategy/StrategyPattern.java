@@ -39,7 +39,7 @@ class MainApplication {
     }
 }
 
-public class Solution {
+public class StrategyPattern {
     public static void main(String[] args ){
         MainApplication application = new MainApplication();
         application.connectToDB("mysql");

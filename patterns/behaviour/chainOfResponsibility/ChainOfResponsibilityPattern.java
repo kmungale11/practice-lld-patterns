@@ -59,7 +59,7 @@ class UserAccess extends BaseHandler {
     }
 }
 
-public class Solution {
+public class ChainOfResponsibilityPattern {
 
     public static void main(String[] args) {
         BaseHandler handler = new UserAccess();

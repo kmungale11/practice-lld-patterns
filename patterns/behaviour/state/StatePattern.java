@@ -128,7 +128,7 @@ class DocumentContext {
 }
 
 
-public class Solution {
+public class StatePattern {
 
     public static void main(String[] args) {
         DocumentContext context = new DocumentContext();
