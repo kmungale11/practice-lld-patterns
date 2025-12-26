@@ -138,7 +138,7 @@ class CartService implements Mediator {
     }
 }
 
-public class Solution {
+public class MediatorPattern {
 
     public static void main(String[] args) {
         Mediator mediator = new CartService();
